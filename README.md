@@ -51,7 +51,7 @@ Shortify is a URL shortener service implemented using Node.js, Express, and Mong
 
 4. When someone accesses the shortened URL, they will be redirected to the original long URL.
 
-5. To view the visit history of a shortened URL, append `+` to the end of the shortened URL. For example, `http://localhost:8001/abc+`.
+5. To view the visit history of a shortened URL, visit `http://localhost:8001/analytics/:shortid`, where `:shortid` is the unique identifier for the shortened URL.
 
 ## Database Schema
 
